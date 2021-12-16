@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-parse-images",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "nodemon": "^2.0.15",
+    "prompt": "^1.2.0",
+    "puppeteer": "^13.0.0",
+    "request-image-size": "^2.2.0"
+  }
+}
